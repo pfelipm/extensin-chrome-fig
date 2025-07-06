@@ -6,6 +6,7 @@ Una extensión para Chrome que permite a los usuarios forzar fácilmente el idio
 
 Muchos servicios de Google determinan el idioma de su interfaz basándose en diversos factores, como la configuración de la cuenta o las preferencias del navegador. Esta extensión proporciona una forma sencilla de anular esta configuración y forzar un idioma específico para la página actual del servicio de Google mediante la modificación de los parámetros de la URL.
 
+
 ## Características
 
 *   **Forzar Cambio de Idioma:** Modifica la URL actual añadiendo o actualizando los parámetros `hl` (idioma del host) y `forcehl=1` para cambiar el idioma de la interfaz.
