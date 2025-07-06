@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forzar Idioma Google</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3 id="popup-title">Forzar Idioma en Google</h3>
+        <div id="message-area" class="message"></div>
+
+        <!-- NUEVO ELEMENTO: ÁREA DE ACCIONES -->
+        <div id="actions-area">
+            <button id="disable-button" disabled title="Desactiva el forzado de idioma en esta página">
+                Restablecer Idioma
+            </button>
+        </div>
+
+        <div id="language-selection-area">
+            <div id="favorites-section">
+                <h4>⭐ Favoritos</h4>
+                <ul id="favorite-languages-list">
+                    <!-- Los idiomas favoritos se cargarán aquí -->
+                </ul>
+            </div>
+            <div id="all-languages-section">
+                <h4>Todos los Idiomas</h4>
+                <ul id="all-languages-list">
+                    <!-- El resto de idiomas se cargarán aquí -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
