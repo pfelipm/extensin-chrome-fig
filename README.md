@@ -60,26 +60,20 @@ La extensión incluye una lista completa de idiomas, incluyendo los principales 
 
 Se sabe que la extensión funciona con los siguientes servicios de Google:
 
-*   `admin.google.com`
-*   `analytics.google.com`
-*   `calendar.google.com`
-*   `docs.google.com` (incluye Sheets)
-*   `drive.google.com`
-*   `gemini.google.com`
-*   `keep.google.com`
-*   `lookerstudio.google.com` (anteriormente Data Studio)
-*   `notebooklm.google.com`
-*   `photos.google.com`
-*   `script.google.com`
-*   `sites.google.com`
-*   `slides.google.com`
-*   `tasks.google.com`
+* Google Calendar | `calendar.google.com`
+* Consola de administración de Google Workspace | `admin.google.com`
+* Google Drive | `drive.google.com`
+* Editores de Google (Docs, Sheets, slides, Forms y Drawings) | `docs.google.com`
+* Gemini | `gemini.google.com`
+* Google Analytics | `analytics.google.com`
+* Google Fotos | `photos.google.com`
+* Google Keep | `keep.google.com`
+* Google Sites | `sites.google.com`
+* IDE Apps Script | `script.google.com`
+* Looker Studio | `lookerstudio.google.com`
+* NotebookLM | `notebooklm.google.com`
 
 Para otros dominios `google.com`, la extensión podría funcionar, pero se mostrará una advertencia.
-
-## Contribuciones
-
-¡Las contribuciones son bienvenidas! Por favor, siéntete libre de enviar *issues* o *pull requests*. (Espacio reservado para directrices de contribución más detalladas).
 
 ## Licencia
 
