@@ -1,4 +1,4 @@
-# Forzar Idioma en Google - Extensión para Chrome
+# Forzar Idioma en Google (FIG) - Extensión para Chrome
 
 Una extensión para Chrome que permite a los usuarios forzar fácilmente el idioma de la interfaz en los servicios de Google compatibles.
 
