@@ -62,12 +62,13 @@ La extensión incluye una lista completa de idiomas, incluyendo los principales 
 
 Se sabe que la extensión funciona con los siguientes servicios de Google:
 
-* Google Calendar | `calendar.google.com`
 * Consola de administración de Google Workspace | `admin.google.com`
-* Google Drive | `drive.google.com`
 * Editores de Google (Docs, Sheets, slides, Forms y Drawings) | `docs.google.com`
 * Gemini | `gemini.google.com`
 * Google Analytics | `analytics.google.com`
+* Google Calendar | `calendar.google.com`
+* Google Classroom | `classroom.google.com`
+* Google Drive | `drive.google.com`
 * Google Fotos | `photos.google.com`
 * Google Keep | `keep.google.com`
 * Google Sites | `sites.google.com`

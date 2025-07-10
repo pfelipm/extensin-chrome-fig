@@ -5,16 +5,16 @@ const knownWorkingDomains = [
     'admin.google.com',
     'analytics.google.com',
     'calendar.google.com',
-    'docs.google.com', // Incluye Sheets, que redirige aquí
+    'classroom.google.com',
+    'docs.google.com', // Incluye Docs, Sheets, Slides, Forms y Drawings
     'drive.google.com',
     'gemini.google.com',
     'keep.google.com',
-    'lookerstudio.google.com', // Anteriormente Data Studio
+    'lookerstudio.google.com',
     'notebooklm.google.com',
     'photos.google.com',
     'script.google.com',
     'sites.google.com',
-    'slides.google.com',
     'tasks.google.com'
 ];
 
@@ -77,7 +77,7 @@ const favoriteLanguagesList = document.getElementById('favorite-languages-list')
 const allLanguagesList = document.getElementById('all-languages-list');
 const favoritesSection = document.getElementById('favorites-section');
 const popupTitle = document.getElementById('popup-title');
-const disableButton = document.getElementById('disable-button'); // NUEVO: Referencia al botón
+const disableButton = document.getElementById('disable-button');
 
 let favoriteLanguageCodes = [];
 
@@ -213,7 +213,7 @@ function forceLanguage(langCode) {
     });
 }
 
-// NUEVA FUNCIÓN: Restablecer el idioma de la página
+// Función para restablecer el idioma de la página
 function resetLanguage() {
     chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
         if (chrome.runtime.lastError || !tabs[0]?.url) {
@@ -223,7 +223,6 @@ function resetLanguage() {
         try {
             let currentUrl = new URL(tabs[0].url);
 
-            // Eliminar los parámetros de la URL
             currentUrl.searchParams.delete('hl');
             currentUrl.searchParams.delete('forcehl');
 
@@ -245,7 +244,6 @@ function resetLanguage() {
 document.addEventListener('DOMContentLoaded', async () => {
     await loadFavorites();
 
-    // NUEVO: Añadir el listener al botón de restablecer
     disableButton.addEventListener('click', resetLanguage);
 
     chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
@@ -266,7 +264,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                  return;
             }
 
-            // NUEVO: Lógica para habilitar o deshabilitar el botón de restablecer
             const isLanguageForced = currentUrl.searchParams.has('hl') && currentUrl.searchParams.has('forcehl');
             disableButton.disabled = !isLanguageForced;
 

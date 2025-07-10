@@ -1,4 +1,9 @@
 /* style.css */
+html, body {
+    height: 600px; /* Establecer una altura fija para el popup */
+    overflow: hidden; /* Evitar la barra de scroll principal */
+}
+
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 320px; /* Ancho del popup */
@@ -6,10 +11,17 @@ body {
     padding: 0;
     background-color: #f9f9f9;
     color: #333;
+    /* CAMBIO: Usar Flexbox para el layout principal */
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
     padding: 15px;
+    /* CAMBIO: Hacer que esta área crezca y sea la única con scroll */
+    flex-grow: 1;
+    overflow-y: auto;
+    min-height: 0; /* Arreglo para overflow en flexbox */
 }
 
 h3, h4 {
@@ -31,7 +43,6 @@ h4 {
     color: #5f6368; /* Gris oscuro de Google */
 }
 
-/* --- NUEVOS ESTILOS --- */
 #actions-area {
     margin-bottom: 15px;
     padding-bottom: 15px;
@@ -60,8 +71,6 @@ h4 {
     color: #a0a0a0;
     cursor: not-allowed;
 }
-/* --- FIN DE NUEVOS ESTILOS --- */
-
 
 #favorites-section {
     margin-bottom: 15px;
@@ -71,10 +80,11 @@ ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    max-height: 200px; /* Altura máxima para la lista, con scroll si es necesario */
-    overflow-y: auto;
+    /* CAMBIO: Eliminar la altura máxima de las listas individuales */
+    /* max-height: 185px; */
+    /* El scroll ahora lo gestiona .container */
     border: 1px solid #e0e0e0;
-    border-radius: 8px; /* Bordes redondeados */
+    border-radius: 8px;
     background-color: #fff;
 }
 
@@ -163,21 +173,42 @@ li:hover {
     border: 1px solid #fcc6c0;
 }
 
-/* Scrollbar styling */
-ul::-webkit-scrollbar {
+/* Scrollbar styling for the container */
+.container::-webkit-scrollbar {
     width: 8px;
 }
 
-ul::-webkit-scrollbar-track {
+.container::-webkit-scrollbar-track {
     background: #f1f1f1;
     border-radius: 8px;
 }
 
-ul::-webkit-scrollbar-thumb {
+.container::-webkit-scrollbar-thumb {
     background: #c1c1c1;
     border-radius: 8px;
 }
 
-ul::-webkit-scrollbar-thumb:hover {
+.container::-webkit-scrollbar-thumb:hover {
     background: #a1a1a1;
+}
+
+.authorship {
+    font-size: 12px;
+    color: #5f6368;
+    text-align: center;
+    padding: 10px 15px;
+    border-top: 1px solid #e0e0e0;
+    background-color: #f9f9f9;
+    /* CAMBIO: Asegurar que el footer no se encoja */
+    flex-shrink: 0;
+}
+
+.authorship a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.authorship a:hover {
+    text-decoration: underline;
 }
