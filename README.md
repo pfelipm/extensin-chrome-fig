@@ -62,19 +62,20 @@ La extensión incluye una lista completa de idiomas, incluyendo los principales 
 
 Se sabe que la extensión funciona con los siguientes servicios de Google:
 
+* Analytics | `analytics.google.com`
+* Calendar | `calendar.google.com`
+* Classroom | `classroom.google.com`
 * Consola de administración de Google Workspace | `admin.google.com`
+* Drive | `drive.google.com`
 * Editores de Google (Docs, Sheets, slides, Forms y Drawings) | `docs.google.com`
+* Fotos | `photos.google.com`
 * Gemini | `gemini.google.com`
-* Google Analytics | `analytics.google.com`
-* Google Calendar | `calendar.google.com`
-* Google Classroom | `classroom.google.com`
-* Google Drive | `drive.google.com`
-* Google Fotos | `photos.google.com`
-* Google Keep | `keep.google.com`
-* Google Sites | `sites.google.com`
 * IDE Apps Script | `script.google.com`
+* Keep | `keep.google.com`
 * Looker Studio | `lookerstudio.google.com`
 * NotebookLM | `notebooklm.google.com`
+* Sites | `sites.google.com`
+* Tasks | `tasks.google.com`
 
 Para otros dominios `google.com`, la extensión podría funcionar, pero se mostrará una advertencia.
 
