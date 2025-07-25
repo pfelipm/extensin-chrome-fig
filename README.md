@@ -79,6 +79,10 @@ Se sabe que la extensión funciona con los siguientes servicios de Google:
 
 Para otros dominios `google.com`, la extensión podría funcionar, pero se mostrará una advertencia.
 
+## Créditos
+
+Este proyecto ha sido creado y desarrollado por [Pablo Felip](https://www.linkedin.com/in/pfelipm).
+
 ## Licencia
 
 Este proyecto está licenciado bajo los términos del archivo `LICENSE`.
