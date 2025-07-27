@@ -24,7 +24,7 @@ Muchos servicios de Google determinan el idioma de su interfaz basándose en div
 
 1.  **Descargar la Extensión:**
     *   **Opción 1: Desde Chrome Web Store (Recomendado cuando esté disponible)**
-        *   Busca [https://chromewebstore.google.com/detail/nigcknehbimphoinlkgdeipjgdfdehif?utm_source=item-share-cb](Forzar Idioma en Google) en la Chrome Web Store e instálala directamente.
+        *   Busca [Forzar Idioma en Google](https://chromewebstore.google.com/detail/nigcknehbimphoinlkgdeipjgdfdehif?utm_source=item-share-cb) en la Chrome Web Store e instálala directamente.
     *   **Opción 2: Instalación Manual (desde GitHub)**
         *   Clona este repositorio o descarga el archivo ZIP y extráelo en una carpeta local.
         *   Abre Chrome y navega a `chrome://extensions`.
