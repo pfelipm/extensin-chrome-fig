@@ -75,7 +75,7 @@ Se sabe que la extensión funciona con los siguientes servicios de Google:
 * Looker Studio | `lookerstudio.google.com`
 * NotebookLM | `notebooklm.google.com`
 * Sites | `sites.google.com`
-* Tasks | `tasks.google.com`
+* Tareas | `tasks.google.com`
 
 Para otros dominios `google.com`, la extensión podría funcionar, pero se mostrará una advertencia.
 
