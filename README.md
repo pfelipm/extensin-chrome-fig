@@ -1,8 +1,4 @@
-# Forzar Idioma en Google (FIG) - Extensión para Chrome
-
-Una extensión para Chrome que permite a los usuarios forzar fácilmente el idioma de la interfaz en los servicios de Google compatibles.
-
-## Propósito
+# Forzar Idioma en Google (FIG)
 
 Muchos servicios de Google determinan el idioma de su interfaz basándose en diversos factores, como la configuración de la cuenta o las preferencias del navegador. Esta extensión proporciona una forma sencilla de anular esta configuración y forzar un idioma específico para la página actual del servicio de Google mediante la modificación de los parámetros de la URL.
 
@@ -22,19 +18,19 @@ Muchos servicios de Google determinan el idioma de su interfaz basándose en div
 
 ## Instalación
 
-1.  **Descargar la Extensión:**
-    *   **Opción 1: Desde Chrome Web Store (Recomendado cuando esté disponible)**
-        *   Busca [Forzar Idioma en Google](https://chromewebstore.google.com/detail/nigcknehbimphoinlkgdeipjgdfdehif?utm_source=item-share-cb) en la Chrome Web Store e instálala directamente.
-    *   **Opción 2: Instalación Manual (desde GitHub)**
-        *   Clona este repositorio o descarga el archivo ZIP y extráelo en una carpeta local.
-        *   Abre Chrome y navega a `chrome://extensions`.
-        *   Habilita el "Modo desarrollador" usando el interruptor en la esquina superior derecha.
-        *   Haz clic en "Cargar descomprimida".
-        *   Selecciona el directorio donde extrajiste los archivos de la extensión.
+Puedes instalar esta extensión en tu cuenta de Google desde su [ficha](https://chromewebstore.google.com/detail/nigcknehbimphoinlkgdeipjgdfdehif?utm_source=item-share-cb) en la Chrome Web Store (recomendado) o de manera local en cada uno de tus navegadores siguiendo estos pasos:
 
-El icono de la extensión debería aparecer ahora en la barra de herramientas de Chrome. Para una nayor comodidad, te sugiero que la fijes en la barra de extensiones.
+1.  Descarga y descomprime o clona este repositorio:
+    ```bash
+    git clone https://github.com/pfelipm/extension-chrome-fig.git
+    ```
+2.  Abre Google Chrome y ve a la página de extensiones: `chrome://extensions`.
+3.  Activa el **"Modo de desarrollador"** en la esquina superior derecha.
+4.  Haz clic en el botón **"Cargar descomprimida"**.
+5.  Selecciona la carpeta del proyecto que acabas de descargar.
+6.  ¡Listo! El icono de la extensión aparecerá en tu barra de extensiones, te sugiero que lo fijes a ella para usarlo con mayor comodidad.
 
-## Cómo Usar
+## Cómo usar FIG
 
 1.  Navega a un servicio de Google (por ejemplo, Google Drive, Google Calendar).
 2.  Haz clic en el icono de la extensión en la barra de herramientas de Chrome.
