@@ -8,7 +8,7 @@ De este modo, puedes utilizar FIG para acceder de manera anticipada a caracterí
 
 ## Características
 
-*   **Forzar Cambio de Idioma:** Modifica la URL actual añadiendo o actualizando los parámetros `hl` (idioma del host) y `forcehl=1` para cambiar el idioma de la interfaz.
+*   **Forzar Cambio de Idioma:** Modifica la URL actual añadiendo o actualizando los parámetros `hl` (idioma del host) y `forcehl=1` para cambiar de manera forzada el idioma de la interfaz.
 *   **Servicios Compatibles Conocidos:** Incluye una lista predefinida de dominios de Google donde se sabe que el mecanismo de forzado de idioma funciona de manera fiable.
 *   **Idiomas Favoritos:** Permite a los usuarios marcar los idiomas utilizados frecuentemente como "favoritos" para un acceso más rápido.
 *   **Restablecer Idioma:** Ofrece una opción para eliminar los parámetros de forzado de idioma de la URL, volviendo al comportamiento de idioma predeterminado.
