@@ -78,6 +78,8 @@ Para otros dominios `google.com`, la extensión podría funcionar, pero se mostr
 
 Este proyecto ha sido creado y desarrollado por [Pablo Felip](https://www.linkedin.com/in/pfelipm).
 
+FIG utiliza la [API](https://flagpedia.net/download/api) de [Flagpedia.net](https://flagpedia.net/) para obtener los iconos de las banderas de los paises.
+
 ## Licencia
 
 Este proyecto se distribuye bajo los términos del archivo [LICENSE](/LICENSE).
