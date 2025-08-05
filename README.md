@@ -2,7 +2,7 @@
 
 Muchos servicios de Google determinan el idioma de su interfaz basándose en diversos factores, como la configuración de la cuenta o las preferencias del navegador. Esta extensión proporciona una forma sencilla de anular esta configuración y forzar un idioma específico para la página actual del servicio de Google mediante la modificación de los parámetros de la URL.
 
-De este modo, puedes utilizar FIG para acceder de manera anticipada a características y funciones que inicialmente solo están disponibles en inglés en algunos servicios de Google.
+De este modo, puedes utilizar FIG para acceder de manera anticipada a características y funciones que inicialmente solo están disponibles en inglés en algunos servicios de Google. Tambiém resulta ideal para pruebas rápidas, demos y formaciones en contextos multilingües.
 
 ![Imagen FIG](./readme-files/FIG1280x800.png)
 
